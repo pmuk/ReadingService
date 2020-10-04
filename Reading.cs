@@ -13,23 +13,8 @@ namespace ReadingService
     {
         private readonly log4net.ILog _log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         PowerService _powerService;
-        const string MAX_RETRY = "maxRetry";
-        int _maxRetry = 0;
         public Reading() 
         {
-            string maxRetry = null;
-            try
-            {
-                maxRetry = ConfigurationManager.AppSettings[MAX_RETRY];
-            }
-            catch (ConfigurationErrorsException e)
-            {
-                _log.Error($"unable to read the value of {MAX_RETRY}", e);
-            }
-
-            if (!int.TryParse(maxRetry, out _maxRetry))
-                _maxRetry = 1;
-
             _log.Info("Creating the access to the reading service");
             _powerService = new PowerService();
         }
@@ -47,7 +32,7 @@ namespace ReadingService
             {
                 _log.Error("Error retrieving the power trades", ex);
                 ++retry;
-                if (retry <= _maxRetry)
+                if (retry <= ConfigurationReader.MaxRetry)
                     goto ACCESS_POWER;
                 throw new Exception("Too many PowerService exceptions, max retry reached.");
             }
@@ -82,8 +67,8 @@ namespace ReadingService
                 }
 
                 _log.Info("Printing.");
-                var printer = new CsvPrinter(date);
-                printer.Print(aggregatedPeriod);
+                var printer = new CsvPrinter();
+                printer.Print(aggregatedPeriod, date);
                 _log.Info("Printing done.");
             }
             catch(Exception ex)

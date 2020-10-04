@@ -16,28 +16,14 @@ namespace ReadingService
         public class Service : ServiceBase
         {
             Timer _timer;
-            private static readonly string TICK = "tick";
-            private static readonly int _tick = 0;
             public Service()
             {
                 ServiceName = Program.ServiceName;
-                string cfg = null;
-                try
-                {
-                    cfg = ConfigurationManager.AppSettings[TICK];
-                }
-                catch(ConfigurationErrorsException e)
-                {
-                    _log.Error($"unable to read the value of {TICK}", e);
-                }
-
-                if (!int.TryParse(cfg, out int _tick))
-                    _tick = 60000;
             }
 
             private void OnTick(object state)
             {
-                Program._log.Info("trigerring generation of readings");
+                Program._log.Info("Start OnTick");
                 
                 var reading = new Reading();
                 reading.GenerateReadings(DateTime.Now);
@@ -48,7 +34,8 @@ namespace ReadingService
             protected override void OnStart(string[] args)
             {
                 _log.Info("Starting the service.");
-                _timer = new Timer(OnTick, "OnTick", 0, _tick);
+                _log.Info($"Generating report every {ConfigurationReader.Tick} ms");
+                _timer = new Timer(OnTick, "OnTick", 0, ConfigurationReader.Tick);
             }
 
             protected override void OnStop()

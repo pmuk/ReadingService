@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AggregatePeriod.cs" />
+    <Compile Include="ConfigurationReader.cs" />
     <Compile Include="CsvPrinter.cs" />
     <Compile Include="IAggregatePeriod.cs" />
     <Compile Include="Program.cs" />
