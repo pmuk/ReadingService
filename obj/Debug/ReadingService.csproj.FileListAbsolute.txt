@@ -1,0 +1,11 @@
+C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe.config
+C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.pdb
+C:\Users\Pedro\source\repos\ReadingService\bin\Debug\log4net.dll
+C:\Users\Pedro\source\repos\ReadingService\bin\Debug\log4net.xml
+C:\Users\Pedro\source\repos\ReadingService\obj\Debug\ReadingService.csprojAssemblyReference.cache
+C:\Users\Pedro\source\repos\ReadingService\obj\Debug\ReadingService.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\source\repos\ReadingService\obj\Debug\ReadingService.csproj.CopyComplete
+C:\Users\Pedro\source\repos\ReadingService\obj\Debug\ReadingService.exe
+C:\Users\Pedro\source\repos\ReadingService\obj\Debug\ReadingService.pdb
+C:\Users\Pedro\source\repos\ReadingService\bin\Debug\PowerService.dll

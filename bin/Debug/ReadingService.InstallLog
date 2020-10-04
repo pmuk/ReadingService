@@ -1,0 +1,94 @@
+﻿Installing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe assembly.
+Committing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe assembly.
+Committing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+Installing service ReadingService...
+Service ReadingService has been successfully installed.
+Creating EventLog source ReadingService in log Application...
+Committing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+Installing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+Installing service ReadingService...
+Creating EventLog source ReadingService in log Application...
+Rolling back assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+Restoring event log to previous state for source ReadingService.
+Uninstalling assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+Removing EventLog source ReadingService.
+Service ReadingService is being removed from the system...
+Service ReadingService was successfully removed from the system.
+Installing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+Installing service ReadingService...
+Service ReadingService has been successfully installed.
+Creating EventLog source ReadingService in log Application...
+Committing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+Uninstalling assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+Removing EventLog source ReadingService.
+Service ReadingService is being removed from the system...
+Service ReadingService was successfully removed from the system.
+Installing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
+Installing service ReadingService...
+Service ReadingService has been successfully installed.
+Creating EventLog source ReadingService in log Application...
+Committing assembly 'C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.InstallLog
+   assemblypath = C:\Users\Pedro\source\repos\ReadingService\bin\Debug\ReadingService.exe
